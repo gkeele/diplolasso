@@ -1,0 +1,14 @@
+Package: diplolasso
+Title: DiploLASSO QTL mapping suite
+Version: 0.1
+Authors@R: c(person("William", "Valdar", role = "aut"),
+	     person("Jeremy", "Sabourin", role = "aut"), 
+             person("Gregory", "Keele", email = "gkeele@gmail.com", role = c("aut", "cre")))
+Description: This package contains the DiploLASSO QTL mapping functions.
+Depends: R (>= 3.2.2)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: Matrix, mnormt, gdata, data.table
+Suggests: plotrix, scales, DOQTL, kqtl
